@@ -60,6 +60,7 @@ a {
 
 body {
     background-color: rgb(238, 223, 183);
+    margin: 0;
 } 
 
 .default-link {
@@ -153,7 +154,32 @@ body {
   .container {
       display: flex;
       flex-direction: row;
-      height: 250px;
-      justify-content: flex-end;
-      align-items: flex-end;
+      color: darkgrey;
+      background-color: #ddd;
+      /* height: 250px; */
+      /* justify-content: flex-end;
+      align-items: flex-end; */
+  }
+
+  .child-1 {
+    background-color: rgb(160, 82, 18);    
+    flex-basis: 500px;
+    color: #ddd;
+    flex-grow: 1;
+    flex-shrink: 0;
+    order: 1;
+  }
+
+  .child-2 {
+    background-color: rgb(77, 182, 28);    
+    flex-basis: 300px;
+    color: #ddd;
+    flex-grow: 1;
+  }
+
+  .child-3 {
+    background-color: #4CAF50;    
+    flex-basis: 200px;
+    color: #ddd;
+    flex-grow: 1;
   }

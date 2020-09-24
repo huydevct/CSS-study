@@ -81,3 +81,11 @@ flexbox-1:
 flexbox-2:
     justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly
     align-items: flex-start | flex-end | center | baseline | stretchs
+
+    flex-basis: <length>
+
+    flex-grow: <number>
+
+    flex-shrink: 1* | <number>
+
+    order: 0* | <number>
