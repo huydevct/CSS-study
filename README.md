@@ -77,4 +77,4 @@ CSS combinators:
 First: Create components
 flexbox:
     display: flex;
-    flex-direction: col;
+    flex-direction: column;

@@ -149,3 +149,8 @@ body {
   .list-2 .item-1 ~ item {
     border: 1px solid black;
   }
+
+  .container {
+      display: flex;
+      flex-direction: row;
+  }
