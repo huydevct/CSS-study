@@ -153,4 +153,7 @@ body {
   .container {
       display: flex;
       flex-direction: row;
+      height: 250px;
+      justify-content: flex-end;
+      align-items: flex-end;
   }

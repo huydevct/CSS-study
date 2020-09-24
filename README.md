@@ -75,6 +75,9 @@ CSS combinators:
     general sibling selector (~)
 
 First: Create components
-flexbox:
+flexbox-1:
     display: flex;
     flex-direction: column;
+flexbox-2:
+    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly
+    align-items: flex-start | flex-end | center | baseline | stretchs
