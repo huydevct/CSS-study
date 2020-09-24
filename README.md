@@ -73,3 +73,8 @@ CSS combinators:
     child selector (>)
     adjacent sibling selector (+)
     general sibling selector (~)
+
+First: Create components
+flexbox:
+    display: flex;
+    flex-direction: col;
