@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #be29b2;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+/* p {
+    color: red;
+} */
+
+.list-item {
+    color: brown;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 16px;
+    margin: 8px;
+    border-bottom: 8px;
+    border-radius: 5px;
+    background-color: #be29b2;
+}
+
+.list-item-pattern {
+    background-image: url(./angle-abstract-line-pattern-flooring-grey.jpg);
+    background-size: 20%;
+    height: 100px;
+    color: rgb(9, 9, 10);
+    background-repeat: repeat-x;
+}
+
+.list-item-image {
+    background-image: url(./images.jpg);
+    height: 100px;
+    color: rgb(8, 8, 8);
+    background-size: cover;
+    background-position: 0 --250px;
+}
+
+.list-item-parallax {
+    background-image: url(./images.jpg);
+    height: 100px;
+    color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: -60px ; */
+}
+
+.list-item-transparent {
+    background: rgb(44, 17, 201);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 27%, rgba(0,212,255,1) 100%);
+}
+
+body {
+    background-color: rgb(238, 223, 183);
+} 
+
+.default-link {
+    color: blue;
+}
+.default-link:link {
+    /* color: #be29b2; */
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* .default-link:visited {
+    color: blue; 
+} */
+
+.default-link:hover {
+    text-decoration: underline;
+}
+
+.default-link:active {
+    color: red;
+}
+
+.button-link {
+    text-decoration: none;
+    background-color: blue;
+    color: aliceblue;
+    padding: 7px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.button-link:hover {
+    background-color: #0c0c65;
+}
+
+.a {
+    list-style: circle inside;
+}
+
+.b {
+    list-style: square outside;
+}
+
+.c {
+    list-style: upper-roman ;
+}
+
+.d {
+    list-style: lower-roman;
+}
+
+.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .customers tr:hover {background-color: #ddd;}
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .block {
+      display: inline;
+  }
+
+  .inline {
+      display: block;
+  }
+
+  .list-1 > .item {
+      border: 1px solid black;
+  }
+
+  .list-2 .item-1 ~ item {
+    border: 1px solid black;
+  }
