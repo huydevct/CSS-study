@@ -92,5 +92,6 @@ flexbox-2:
 
 position
     position: static | relative | fixed | absolute | sticky
-    
+    top bottom left right
+
 
