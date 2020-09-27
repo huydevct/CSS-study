@@ -156,10 +156,11 @@ body {
       flex-direction: row;
       color: darkgrey;
       background-color: #ddd;
-      /* height: 250px; */
-      /* justify-content: flex-end;
-      align-items: flex-end; */
-  }
+      height: 250px; 
+      justify-content: flex-end;
+      align-items: flex-end; 
+}
+  
 
   .child-1 {
     background-color: rgb(160, 82, 18);    
@@ -183,3 +184,4 @@ body {
     color: #ddd;
     flex-grow: 1;
   }
+
