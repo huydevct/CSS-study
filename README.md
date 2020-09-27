@@ -89,3 +89,8 @@ flexbox-2:
     flex-shrink: 1* | <number>
 
     order: 0* | <number>
+
+position
+    position: static | relative | fixed | absolute | sticky
+    
+
