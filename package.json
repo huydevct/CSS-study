@@ -9,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0"
-  }
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huydevct/CSS-study.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huydevct/CSS-study/issues"
+  },
+  "homepage": "https://github.com/huydevct/CSS-study#readme"
 }
