@@ -1,0 +1,14 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "color: #DDD\r text-align: center/right/left/justify;\r text-decoration: none/underline/overline/line-through\r text-transform: uppercase/lowercase/capitalize\r text-indent: 10px\r letter-spacing: 5px\r word-spacing: 10px\r line-height: 1.2\r text-shadow: x y color blur",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0"
+  }
+}
