@@ -93,5 +93,16 @@ flexbox-2:
 position
     position: static | relative | fixed | absolute | sticky
     top bottom left right
+CSS Specificity
+
+2D transform + transition
+    translate
+    rotate
+    scale
+    skew
+    matrix
+
+    transition: all 0.5s;(time = 0.5s or sth)
+
 
 

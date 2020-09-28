@@ -141,10 +141,65 @@ p {
     height: 100px;
 } */
 
-a[target] {
+/* a[target] {
     color: red;
 }
 
 input[type="text"] {
     border: 1px solid red;
+} */
+
+
+/* 2D transform + transition*/
+/* .item {
+    width: 100px;
+    background-color: #DDD;
+    height: 100px;
+    transform: rotate(150deg);
+} */
+
+.button {
+    text-decoration: none;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 8px 16px;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background-color: aquamarine;
+    color: #ffffff;
+}
+
+.album-item {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://loremflickr.com/200/200');
+    background-size: cover;
+    background-position: center;
+}
+
+.album-item .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.album-item .overlay img {
+    transform: scale(0);
+    transition: all 0.3s;
+}
+
+.album-item:hover .overlay {
+    opacity: 1;
+}
+
+.album-item:hover .overlay img {
+    transform: scale(1);
 }
