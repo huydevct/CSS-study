@@ -1,26 +1,26 @@
 color: #DDD
-text-align: center/right/left/justify;
-text-decoration: none/underline/overline/line-through
-text-transform: uppercase/lowercase/capitalize
-text-indent: 10px
-letter-spacing: 5px
-word-spacing: 10px
-line-height: 1.2
-text-shadow: x y color blur
+    text-align: center/right/left/justify;
+    text-decoration: none/underline/overline/line-through
+    text-transform: uppercase/lowercase/capitalize
+    text-indent: 10px
+    letter-spacing: 5px
+    word-spacing: 10px
+    line-height: 1.2
+    text-shadow: x y color blur
 
 font:
-font-family: font1, font2, font3;
-font-size: 20px;
-font-style: normal | italic;
-font-weight: normal | bold: 400 | 600 | 700 | 900;
+    font-family: font1, font2, font3;
+    font-size: 20px;
+    font-style: normal | italic;
+    font-weight: normal | bold: 400 | 600 | 700 | 900;
 
 padding
-padding: top left-right bottom;
-padding: top-bottom left-right;
+    padding: top left-right bottom;
+    padding: top-bottom left-right;
 
 margin
-margin: top left-right bottom;
-margin: top-bottom left-right;
+    margin: top left-right bottom;
+    margin: top-bottom left-right;
 
 border
 Syntax:
