@@ -104,5 +104,17 @@ CSS Specificity
 
     transition: all 0.5s;(time = 0.5s or sth)
 
+Media query
+    @media (min-width)//(max-width){
+
+    }
+
+Grid
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column: 1/3;
+    
+px vs em vs rem
+    
 
 

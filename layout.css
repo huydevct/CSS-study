@@ -1,0 +1,29 @@
+/* Grid */
+/* .wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+} */
+
+/* .header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */
+
+/* <=> */
+
+/* .header, .footer {
+    grid-column: 1/3;
+} */
+
+/* ps vs em vs rem */
+.px {
+    font-size: 32px;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 2rem;
+}
